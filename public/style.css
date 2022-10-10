@@ -1,0 +1,72 @@
+main{
+	background: rgb(229, 218, 214); 
+}
+aside{
+	background: rgb(229, 218, 214);
+}
+section{
+	background: rgb(229, 218, 214);
+}
+body{
+	margin: 0px 10px 10px 10px;
+}
+form{
+	padding-bottom: 5px;
+}
+label{
+	padding-left: 7px;
+}
+nav{
+	padding-top: 10px;
+}
+a{
+	color: rgb(229, 218, 214);
+}
+a:hover{
+	text-decoration: none;
+	color: rgb(229, 218, 214);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: rgb(229, 218, 214);
+}
+.form-control{
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+.centered{
+	text-align: center;
+}
+.no-pad{
+	padding: 0px ;
+}
+
+.bordered{
+	border:2px solid gray;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+}
+.sticky-top{
+	/*border:2px solid gray;*/
+	border-radius: 0px 0px 5px 5px;
+	background: #76323F;
+}
+.container h1{
+	text-align: center;
+}
+#hamburger{
+    padding-left: 4px;
+    padding-right: 4px;
+    float:right;
+}
+@media only screen and (max-width: 768px){
+	#forButton{
+		width:100%;
+		right: 10px;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		text-align: center;
+	}
+}

@@ -1,0 +1,28 @@
+body{
+	background:black;
+}
+@media only screen and (min-width: 768px){
+	.col-md-3{
+		text-align:right;
+	}
+}
+@media only screen and (min-width: 992px){
+	main{
+		margin-right: 15px;
+	}
+	aside{
+		margin-left: 15px;
+	}
+}
+.carousel-item{
+	/*width: auto;
+    height: 562px;
+    max-height: 562px;
+    display: grid;*/
+    height: 100%;
+}
+.d-block{
+	max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
